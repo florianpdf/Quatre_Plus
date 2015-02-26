@@ -1,0 +1,144 @@
+/*Police*/
+@font-face{
+    font-family: 'HPSimplified_Bd';
+    src: url('police/HPSimplified_Bd.ttf');
+}
+@font-face{
+    font-family: 'HPSimplified_Bdlt';
+    src: url('police/HPSimplified_Bdlt.ttf');
+}
+@font-face{
+    font-family: 'HPSimplified_It';
+    src: url('police/HPSimplified_It.ttf')
+}
+@font-face{
+    font-family: 'HPSimplified_Lt';
+    src: url('police/HPSimplified_Lt.ttf');
+}
+@font-face{
+    font-family: 'HPSimplified_LtIt';
+    src: url('police/HPSimplified_LtIt.ttf');
+}
+@font-face{
+    font-family: 'HPSimplified_Rg';
+    src: url('Police/HPSimplified_Rg.ttf');
+}
+
+/*Body*/
+html{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/*Header*/
+header{
+    text-align: center;
+    margin-bottom: -40px;
+    padding-bottom: 5px;
+    border-bottom: solid 15px #7f4c41;
+}
+#nav_index ul{
+    margin-left: -34px;
+}
+#nav_index li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px 0 10px;
+    padding-left: 5px;
+    font-family: 'HPSimplified_Rg';
+    border-left: solid 3px #d6d5d5; 
+}
+#nav_index a{
+    text-decoration: none;
+    color: black;
+}
+#nav_index a:hover{
+    text-decoration: none;
+    color: black;
+}
+header img{
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 0 15px 0 15px;
+}
+
+@media(max-width: 700px){
+    header img{
+        display: none;
+    }
+    header{
+        border-top: solid 15px #7f4c41;
+    }
+}
+
+/*Section*/
+ section{
+     font-weight: normal;
+     text-align: center;
+     margin: 80px;
+     background-image: url(Images/img_fond_ancre.jpg);
+     background-size: cover;
+     background-position: center
+ }
+
+section h2{
+    font-family: 'HPSimplified_Rg';
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+section p{
+    font-family: 'HPSimplified_Lt';
+    text-align: justify;
+    line-height: 18px;
+    /*Propriété ci dessous prise en charge uniquement sur IE et FireFox*/
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+strong{
+    display: block;
+    font-family: 'HPSimplified_Rg';
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+#point_gris p{
+    text-align: center;
+}
+#point_gris img{
+    margin: 20px 5px -40px 5px;
+    width: 13px;
+    display: inline-block
+}
+@media(max-width: 700px){
+    section{
+        margin: 8px;
+        background-image: none;
+    }
+    #point_gris img{
+    margin: 0 5px 0 5px;
+    width: 13px;
+    display: inline-block
+    }
+    strong{
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+/*Article_Actu*/
+
+    
+
+/*Footer*/
+footer{
+    height: 70px;
+    border-top: solid 15px #7f4c41;
+    border-bottom: solid 15px #7f4c41;
+/*nav*/
+iframe{
+    
+}

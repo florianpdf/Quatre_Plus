@@ -25,7 +25,7 @@
 }
 
 /*Body*/
-html{
+.bloc_page{
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -74,7 +74,7 @@ header img{
 }
 
 /*Section*/
- section{
+section{
      font-weight: normal;
      margin: 80px;
      background-image: url(Images/img_fond_ancre.jpg);
@@ -147,6 +147,7 @@ strong{
         font-size: 16px;
     }
 }
+
 /*Calendrier*/
 .mois_calendrier{
     margin-bottom: 5px;
@@ -155,27 +156,35 @@ strong{
     color: #7f4c41;
     border-left: solid 3px #d6d5d5;
     font-size: 20px;
+    padding-left: 5px;
 }
 
-table{
+.calendrier1, .calendrier2{
     display: inline-block;
     font-family: HPSimplified_Lt;
     text-align: center;
-    margin-left: 0px;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
-table th{
+.calendrier2{
+    margin-left: 30px;
+}
+
+.calendrier1 th, .calendrier2 th{
     background-color: #7f4c41;
     color: white;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 2px solid white;
     border-bottom: 1px solid #7f4c41;
-
 }
-table td{
-    padding: 8px;
+
+.calendrier1 td, .calendrier2 td{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-collapse: collapse;
     border: 1px solid #7f4c41;
 }
@@ -197,6 +206,12 @@ table td{
     height: 100px;
 }
 
+#calendrier_frame{
+    display: block;
+    margin: 80px auto 0 auto;
+    border: 0;
+}
+
 /*Footer*/
 footer{
     height: 70px;
@@ -204,3 +219,4 @@ footer{
     border-bottom: solid 15px #7f4c41;
 }
 /*nav*/
+

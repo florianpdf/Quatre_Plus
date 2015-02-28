@@ -76,18 +76,33 @@ header img{
 /*Section*/
  section{
      font-weight: normal;
-     text-align: center;
      margin: 80px;
      background-image: url(Images/img_fond_ancre.jpg);
      background-size: cover;
      background-position: center
  }
 
-section h2{
+section h1{
+    text-align: center;
     font-family: 'HPSimplified_Rg';
     font-weight: normal;
     font-size: 25px;
     margin-top: 70px;
+}
+
+section h2{
+    margin-bottom: -17px;
+    margin-top: 30px;
+    font-family: 'HPSimplified_Rg';
+    font-size: 17px;
+    font-weight: 900;
+}
+section h3{
+    margin-bottom: -13px;
+    margin-top: 80px;
+    font-family: 'HPSimplified_Rg';
+    font-size: 30px;
+    font-weight: 300;
 }
 
 section p{
@@ -100,15 +115,18 @@ section p{
 }
 
 strong{
+    text-align: center;
     display: block;
     font-family: 'HPSimplified_Rg';
     font-size: 25px;
     line-height: 35px;
     margin-top: 40px;
 }
+
 #point_gris p{
     text-align: center;
 }
+
 #point_gris img{
     margin: 20px 5px -40px 5px;
     width: 13px;
@@ -167,6 +185,16 @@ table td{
     border-right: none;
     border-bottom: none;
     border-left: none;
+}
+
+/*Images Google*/
+.logo_google{
+    text-align: center;
+}
+.logo_google img{
+    margin: 20px 40px 0 40px;
+    width: 100px;
+    height: 100px;
 }
 
 /*Footer*/

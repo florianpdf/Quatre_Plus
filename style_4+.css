@@ -24,7 +24,7 @@
     src: url('Police/HPSimplified_Rg.ttf');
 }
 
-/*Body*/
+/*Page complète*/
 .bloc_page{
     width: 100%;
     max-width: 800px;
@@ -80,7 +80,7 @@ section{
      background-image: url(Images/img_fond_ancre.jpg);
      background-size: cover;
      background-position: center
- }
+}
 
 section h1{
     text-align: center;
@@ -97,6 +97,7 @@ section h2{
     font-size: 17px;
     font-weight: 900;
 }
+
 section h3{
     margin-bottom: -13px;
     margin-top: 80px;
@@ -132,6 +133,7 @@ strong{
     width: 13px;
     display: inline-block
 }
+
 @media(max-width: 700px){
     section{
         margin: 8px;
@@ -160,7 +162,7 @@ strong{
 }
 
 .calendrier1, .calendrier2{
-    display: inline-block;
+    display: inline-table;
     font-family: HPSimplified_Lt;
     text-align: center;
     border-collapse: collapse;
@@ -200,6 +202,7 @@ strong{
 .logo_google{
     text-align: center;
 }
+
 .logo_google img{
     margin: 20px 40px 0 40px;
     width: 100px;
@@ -218,5 +221,6 @@ footer{
     border-top: solid 15px #7f4c41;
     border-bottom: solid 15px #7f4c41;
 }
+
 /*nav*/
 

@@ -235,9 +235,13 @@ table :empty{
 }
 
 .logo_google img{
-    margin: 20px 40px 0 40px;
+    text-align: center;
+    margin-top: 20px;
     width: 100px;
     height: 100px;
+}
+#google_street_logo{
+    margin-left: 40px;
 }
 
 /*Footer*/

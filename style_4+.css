@@ -1,27 +1,27 @@
 /*Police*/
 @font-face{
     font-family: 'HPSimplified_Bd';
-    src: url('police/HPSimplified_Bd.ttf');
+    src: url('polices/HPSimplified_Bd.ttf');
 }
 @font-face{
     font-family: 'HPSimplified_Bdlt';
-    src: url('police/HPSimplified_Bdlt.ttf');
+    src: url('polices/HPSimplified_Bdlt.ttf');
 }
 @font-face{
     font-family: 'HPSimplified_It';
-    src: url('police/HPSimplified_It.ttf')
+    src: url('polices/HPSimplified_It.ttf')
 }
 @font-face{
     font-family: 'HPSimplified_Lt';
-    src: url('police/HPSimplified_Lt.ttf');
+    src: url('polices/HPSimplified_Lt.ttf');
 }
 @font-face{
     font-family: 'HPSimplified_LtIt';
-    src: url('police/HPSimplified_LtIt.ttf');
+    src: url('polices/HPSimplified_LtIt.ttf');
 }
 @font-face{
     font-family: 'HPSimplified_Rg';
-    src: url('police/HPSimplified_Rg.ttf');
+    src: url('polices/HPSimplified_Rg.ttf');
 }
 
 /*Page complète*/

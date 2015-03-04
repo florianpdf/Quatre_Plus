@@ -238,11 +238,12 @@ table :empty{
 p:hover .actu_calendrier{
     display: block;
     border: 2px solid black;
+    margin-top: 10px;
     position: absolute;
     opacity: 1;
     background-color:blue;
     color: red;
-    width: 200px; 
+    width: 300px; 
 }
 
 table p{

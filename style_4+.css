@@ -29,19 +29,17 @@
     width: 100%;
     max-width: 90%;
     margin: auto;
-    background-image: url(Images/fond_ancre.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 /*Header*/
 header{
     text-align: center;
     margin-bottom: -40px;
-    padding-bottom: 5px;
+    margin-top: 30px;
+}
+.nav_index{
     border-bottom: solid 15px #7f4c41;
+    border-top: solid 15px #7f4c41;
 }
 .nav_index ul{
     margin-left: -34px;
@@ -49,10 +47,10 @@ header{
 .nav_index li{
     list-style: none;
     display: inline-block;
-    margin: 5px 100px 0 50px;
+    margin: 5px 3vw 0 3vw;
     padding-left: 5px;
     font-family: 'HPSimplified_Rg';
-    font-size: 18px;
+    font-size: 20px;
     border-left: solid 3px #d6d5d5; 
 }
 .nav_index a{
@@ -63,21 +61,42 @@ header{
     text-decoration: none;
     color: black;
 }
-header img{
-    width: 100%;
-    max-width: 700px;
-    height: 400px;
-    margin: 0 15px 0 15px;
-    border-radius: 50px;
+#logo_asso{
+    width: 230px;
+    float: inherit;
+    margin: 17px 13px 0 13px;
+    vertical-align: middle;
+}
+#logo_asso_mob{
+    display: none;
 }
 
-@media(max-width: 700px){
-    header img{
+@media(max-width: 730px){
+    #logo_asso{
         display: none;
     }
+    #logo_asso_mob{
+        display: inline;
+        width: 230px;
+    }
+    .nav_index{
+        margin-top: -20px;
+    }
+    .nav_index ul{
+        margin-bottom: 20px;
+    }
     header{
-        margin-top: 30px;
         border-top: solid 15px #7f4c41;
+    }
+}
+@media(max-width: 910px){
+    .nav_index li{
+        margin: 5px 1vw 0 1vw;
+    }
+}
+@media(min-width: 1150px){
+    .nav_index li{
+        margin: 5px 50px 0 50px;
     }
 }
 
@@ -85,8 +104,10 @@ header img{
 section{
      font-weight: normal;
      margin: 80px;
-
-
+     background-image: url(Images/fond_ancre.jpg);
+     background-size: 50em;
+     background-position: center;
+     background-repeat: no-repeat;
 }
 
 section h1{
@@ -122,6 +143,14 @@ section p{
     -moz-text-align-last: center;
 }
 
+#img1{
+    width: 200px;
+    max-width: 700px;
+    border-radius: 50px;
+    margin: 10px;
+    float: right;
+}
+
 strong{
     text-align: center;
     display: block;
@@ -149,7 +178,7 @@ strong{
     text-align: center;
 }
 
-@media(max-width: 700px){
+@media(max-width: 910px){
     section{
         margin: 8px;
         background-image: none;
@@ -169,6 +198,9 @@ strong{
     }
     #respons1{
         margin-top: 60px;
+    }
+    #img1{
+        display: none;
     }
 }
 
@@ -288,7 +320,7 @@ footer img{
     margin: 15px;
 }
 
-@media(max-width: 700px){
+@media(max-width: 910px){
     footer{
         margin-top: 30px;
     }

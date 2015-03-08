@@ -46,17 +46,18 @@ header{
     margin-left: -34px;
 }
 .nav_index li{
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    margin: 5px 1vw 0 1vw;
+    margin: 10px 1vw 10px 1vw;
     padding-left: 59px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: 'HPSimplified_Rg';
     font-size: 20px;
+    border-left: solid 3px #d6d5d5;
     background-repeat: no-repeat;
     background-size: 60px;
-}    
+}
 #index_img{
     background-image: url(images/prise_1.jpg);
 }
@@ -87,32 +88,20 @@ header{
     display: none;
 }
 
-@media(max-width: 730px){
+@media(max-width: 980px){
     #logo_asso{
         display: none;
     }
     #logo_asso_mob{
         display: inline;
         width: 230px;
-    }
-    .nav_index{
-        margin-top: -20px;
-    }
-    .nav_index ul{
-        margin-bottom: 20px;
+        margin-bottom: -10px;
     }
     header{
         border-top: solid 15px #7f4c41;
     }
-}
-@media(max-width: 910px){
-    .nav_index a{
-        margin: 5px 1vw 0 1vw;
-    }
-}
-@media(min-width: 1150px){
     .nav_index li{
-        
+        background-image: none;
     }
 }
 

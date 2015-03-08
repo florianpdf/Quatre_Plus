@@ -54,10 +54,9 @@ header{
     padding-bottom: 7px;
     font-family: 'HPSimplified_Rg';
     font-size: 20px;
-    border-left: solid 3px #d6d5d5;
     background-repeat: no-repeat;
     background-size: 60px;
-}
+}    
 #index_img{
     background-image: url(images/prise_1.jpg);
 }
@@ -107,7 +106,7 @@ header{
     }
 }
 @media(max-width: 910px){
-    .nav_index li{
+    .nav_index a{
         margin: 5px 1vw 0 1vw;
     }
 }

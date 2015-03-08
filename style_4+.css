@@ -104,7 +104,7 @@ header{
 section{
      font-weight: normal;
      margin: 80px 8px 80px 8px;
-     background-image: url(Images/fond_ancre.jpg);
+     background-image: url(Images/fond_ancre_4+.jpg);
      background-size: 50em;
      background-position: center;
      background-repeat: no-repeat;
@@ -206,7 +206,7 @@ strong{
         background-image: none;
         margin-top: 70px;
     }
-    section img{
+    #img1, #img2{
         display: none;
     }
 }

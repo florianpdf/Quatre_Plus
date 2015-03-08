@@ -40,18 +40,35 @@ header{
 .nav_index{
     border-bottom: solid 15px #7f4c41;
     border-top: solid 15px #7f4c41;
+    padding: 10px 0 10px 0;
 }
 .nav_index ul{
     margin-left: -34px;
 }
 .nav_index li{
-    list-style: none;
-    display: inline-block;
-    margin: 5px 3vw 0 3vw;
-    padding-left: 5px;
+    display: inline;
+    list-style-type: none;
+    margin: 5px 1vw 0 1vw;
+    padding-left: 59px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     font-family: 'HPSimplified_Rg';
     font-size: 20px;
-    border-left: solid 3px #d6d5d5; 
+    border-left: solid 3px #d6d5d5;
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+#index_img{
+    background-image: url(images/prise_1.jpg);
+}
+#histoire_img{
+    background-image: url(images/prise_2.jpg);
+}
+#actu_img{
+    background-image: url(images/prise_3.jpg);
+}
+#contact_img{
+    background-image: url(images/prise_4.jpg);
 }
 .nav_index a{
     text-decoration: none;
@@ -63,7 +80,7 @@ header{
 }
 #logo_asso{
     width: 230px;
-    float: inherit;
+
     margin: 17px 13px 0 13px;
     vertical-align: middle;
 }
@@ -96,7 +113,7 @@ header{
 }
 @media(min-width: 1150px){
     .nav_index li{
-        margin: 5px 50px 0 50px;
+        
     }
 }
 

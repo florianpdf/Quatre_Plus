@@ -225,12 +225,15 @@ strong{
     .img_text{
         display: none;
     }
+    #photo_acceuil{
+        width: 80%;
+    }
 }
 @media(max-width: 970px){
     #photo_acceuil{
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
     }
     #table_horaire{
         margin: auto;

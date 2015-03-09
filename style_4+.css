@@ -140,7 +140,6 @@ section h3{
     font-weight: 300;
     text-align: center;
 }
-
 section p{
     font-family: 'HPSimplified_Lt';
     text-align: justify;
@@ -235,7 +234,6 @@ fieldset legend{
     background-color: white;
     border-radius: 6;
     margin: auto;
-    font-style: italic;
 }
 .form_align{
     text-align: center;
@@ -390,7 +388,8 @@ p:hover .actu_calendrier{
 table p{
     margin: auto;
     cursor: pointer;
-    background-color: #7f4c41;
+    background-color: #E8D0CC;
+    color: black;
 }
 @media(max-width: 840px){
     #calendrier_frame{

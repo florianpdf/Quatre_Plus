@@ -220,6 +220,63 @@ strong{
         margin: 80px;
     }
 }
+
+/*Formulaire*/
+form{
+    width: 500px;
+    margin: 55px auto 0 auto;
+    font-family: 'HPSimplified_Lt';
+}
+fieldset{
+    margin: 5px 0 2px 0;
+    background-color: #E8D0CC;
+    padding: 10px;
+}
+fieldset legend{
+    font-family: 'HPSimplified_Bdlt';
+    font-size: 20px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 6;
+    margin: auto;
+    font-style: italic;
+}
+.form_align{
+    text-align: center;
+}
+.label_first{
+  width: 120px;
+  display: inline-block;
+  margin: 6px;
+}
+input[type="text"], input[type="email"]{
+    width: 240px;
+    margin-left: 3px;
+    padding: 5px;
+    border-radius: 3px;
+}
+input[type=radio], form input[type=checkbox]{
+    margin-left: 20px;
+}
+.label_question{
+    text-align: center;
+}
+textarea{
+    width: 97%;
+    height: 60px;
+    font-size: 13px;
+}
+textarea[placeholder]{
+    font-size: 16px;
+    padding: 5px;
+}
+input[type="submit"], input[type="reset"]{
+    padding: 10px 30px;
+    margin: auto 15px;
+    font-size: 15px;
+    box-shadow: 10px 10px  17px black;
+    border-radius: 10px;
+}
 /*Calendrier*/
 .mois_calendrier{
     margin-bottom: 5px;

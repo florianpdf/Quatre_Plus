@@ -157,10 +157,7 @@ section p{
 #img_mur{
     float: left;
 }
-#img_falaise{
-    float: right;
-}
-#dentelles{
+#img_falaise, #dentelles{
     float: right;
 }
 strong{
@@ -178,7 +175,7 @@ strong{
 .point_gris img{
     margin: 20px 5px -40px 5px;
     width: 13px;
-    display: inline-block
+    display: inline-block;
 }
 
 .article_actu{
@@ -192,8 +189,6 @@ strong{
 @media(max-width: 600px){
     .point_gris img{
     margin: 0 5px -40px 5px;
-    width: 13px;
-    display: inline-block
     }
     strong{
         line-height: 20px;
@@ -212,7 +207,7 @@ strong{
         background-image: none;
         margin-top: 70px;
     }
-    #img1, #img2{
+    .img_text{
         display: none;
     }
 }
@@ -237,7 +232,6 @@ fieldset legend{
     font-family: 'HPSimplified_Bdlt';
     font-size: 20px;
     background-color: white;
-    z-index: 1;
     border-radius: 6;
     margin: auto;
     font-style: italic;
@@ -245,18 +239,22 @@ fieldset legend{
 .form_align{
     text-align: center;
 }
-.label_first{
+.label_perso{
   width: 120px;
   display: inline-block;
   margin: 6px;
 }
+.dispo_choix{
+    display: inline-block;
+    margin-top: -16px;
+}
 input[type="text"], input[type="email"]{
     width: 240px;
     margin-left: 3px;
-    padding: 5px;
+    padding: 7px;
     border-radius: 3px;
 }
-input[type=radio], form input[type=checkbox]{
+input[type=radio], input[type=checkbox]{
     margin-left: 20px;
 }
 .label_question{
@@ -271,12 +269,38 @@ textarea[placeholder]{
     font-size: 16px;
     padding: 5px;
 }
+textarea{
+    width: 97%;
+    height: 60px;
+    font-size: 13px;
+}
+textarea[placeholder]{
+    font-size: 16px;
+    padding: 5px;
+}
 input[type="submit"], input[type="reset"]{
+    display: inline-block;
     padding: 10px 30px;
     margin: auto 15px;
     font-size: 15px;
     box-shadow: 10px 10px  17px black;
     border-radius: 10px;
+}
+@media(max-width: 600px){
+    form{
+        width: 95%;
+    }
+    input[type="text"], input[type="email"]{
+        width: 90%;
+    }
+    input[type="submit"]{
+        margin: auto;
+        display: block;
+    }
+    input[type="reset"]{
+        margin: 10px auto auto auto;
+        display: block;
+    }
 }
 /*Calendrier*/
 .mois_calendrier{
@@ -365,7 +389,7 @@ p:hover .actu_calendrier{
 table p{
     margin: auto;
     cursor: pointer;
-    background-color: red;
+    background-color: #7f4c41;
 }
 @media(max-width: 840px){
     #calendrier_frame{

@@ -24,40 +24,29 @@
                 <form method="post" action="index.html"><!--Le doc .php n'existe pas encore-->
                     <fieldset>
                         <legend>Informations personnelles</legend>
-                        <label for="nom" class="label_first">Nom:</label>
-                        <input type="text" name="nom" id="nom" required placeholder="Votre nom ici"><br/>
-                    
-                        <label for="prenom" class="label_first">Prénom:</label>
-                        <input type="text" name="prenom" id="prenom" required placeholder="Voter prénom ici"><br/>
-                   
-                        <label for="email" class="label_first">E-mail:</label>
-                        <input type="email" name="email" id="email" required placeholder="Votre email ici"><br/>
+                        <p><label for="nom" class="label_perso">Nom:</label><input type="text" name="nom" id="nom" required placeholder="Votre nom ici"></p>
+                        <p><label for="prenom" class="label_perso">Prénom:</label><input type="text" name="prenom" id="prenom" required placeholder="Voter prénom ici"></p>
+                        <p><label for="email" class="label_perso">E-mail:</label><input type="email" name="email" id="email" required placeholder="Votre email ici"></p>
                     </fieldset>
                     <fieldset>
-                        <legend>Info de grimpeur</legend>
+                        <legend>Infos de grimpeur</legend>
                         <p>Avez vous déjà pratiquer l'escalade ?<br/></p>
-                        <input type="radio" name="climb" value="Oui" id="oui" required/> 
-                        <label for="oui" class="label_too">Oui</label>
-                        <input type="radio" name="climb" value="Non" id="non" required/> 
-                        <label for="non" class="label_too">Non</label>
+                        <p class="dispo_choix"><input type="radio" name="climb" value="Oui" id="oui" required/><label for="oui">Oui</label></p>
+                        <p class="dispo_choix"><input type="radio" name="climb" value="Non" id="non" required/><label for="non">Non</label></p>
 
                         <p>Si oui, quel est votre structure préféré ? (Plusieurs réponses possible) <br/></p>
-                        <input type="checkbox" name="bloc" value="Bloc" id="bloc" /> 
-                        <label for="bloc" class="label_too">Bloc</label>
-                        <input type="checkbox" name="falaise" value="falaise" id="falaise" /> 
-                        <label for="falaise" class="label_too">Falaise</label>
-                        <input type="checkbox" name="artif" value="Structure artificielle" id="artif" /> 
-                        <label for="artif" class="label_too">Structure artificielle</label>
+                        <p class="dispo_choix"><input type="checkbox" name="bloc" value="Bloc" id="bloc" /> 
+                        <label for="bloc">Bloc</label></p>
+                        <p class="dispo_choix"><input type="checkbox" na="falaise" value="falaise" id="falaise" />
+                        <label for="falaise">Falaise</label></p>
+                        <p class="dispo_choix"><input type="checkbox" name="artif" value="Structure artificielle" id="artif" /> 
+                        <label for="artif">Structure artificielle</label></p>
 
                         <p>Si oui, quel est votre niveau ?<br/></p>
-                        <input type="radio" name="niveau" value="4a, 4b, 4c" id="n4" />
-                        <label for="n4" class="label_too">4a, 4b, 4c</label>
-                        <input type="radio" name="niveau" value="5a, 5b, 5c" id="n5" /> 
-                        <label for="n5" class="label_too">5a, 5b, 5c</label>
-                        <input type="radio" name="niveau" value="6a, 6b, 6c" id="n6" /> 
-                        <label for="n6" class="label_too">6a, 6b, 6c</label>
-                        <input type="radio" name="niveau" value="7a, et plus" id="n7" /> 
-                        <label for="n7" class="label_too">7a, et plus</label>
+                        <p class="dispo_choix"><input type="radio" name="niveau" value="4a, 4b, 4c" id="n4" /><label for="n4">4a, 4b, 4c</label></p>
+                        <p class="dispo_choix"><input type="radio" name="niveau" value="5a, 5b, 5c" id="n5" /><label for="n5">5a, 5b, 5c</label></p>
+                        <p class="dispo_choix"><input type="radio" name="niveau" value="6a, 6b, 6c" id="n6" /><label for="n6">6a, 6b, 6c</label></p>
+                        <p class="dispo_choix"><input type="radio" name="niveau" value="7a, et plus" id="n7" /><label for="n7">7a, et plus</label></p>
                     </fieldset>
                     <fieldset>
                         <legend>A vous la parole</legend>

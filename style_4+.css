@@ -123,7 +123,10 @@ section h1{
     font-size: 25px;
     margin-top: 70px;
 }
-
+#en_tête{
+    text-align: center;
+    font-size: 35px;
+}
 section h2{
     margin-bottom: -15px;
     margin-top: 30px;
@@ -131,7 +134,11 @@ section h2{
     font-size: 17px;
     font-weight: 900;
 }
+#horaire{
+    margin-top: 15px;
+    margin-bottom: 1px;
 
+}
 section h3{
     margin-bottom: -13px;
     margin-top: 80px;
@@ -147,6 +154,14 @@ section p{
     /*Propriété ci dessous prise en charge uniquement sur IE et FireFox*/
     text-align-last: center;
     -moz-text-align-last: center;
+}
+#photo_acceuil{
+    width: 400px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+#respons1{
+    clear: both;
 }
 .img_text{
     width: 200px;
@@ -209,6 +224,16 @@ strong{
     }
     .img_text{
         display: none;
+    }
+}
+@media(max-width: 970px){
+    #photo_acceuil{
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    }
+    #table_horaire{
+        margin: auto;
     }
 }
 @media(min-width: 1150px){
@@ -395,6 +420,11 @@ table p{
     #calendrier_frame{
         display: none;
     }
+}
+
+/* Horraires*/
+#table_horaire tr, #table_horaire td{
+    border: 1px solid black;
 }
 
 /*Images Google*/

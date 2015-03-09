@@ -137,6 +137,7 @@ section h3{
     font-family: 'HPSimplified_Rg';
     font-size: 30px;
     font-weight: 300;
+    text-align: center;
 }
 
 section p{
@@ -147,20 +148,20 @@ section p{
     text-align-last: center;
     -moz-text-align-last: center;
 }
-
-#img1{
+.img_text{
     width: 200px;
     max-width: 700px;
     border-radius: 30px;
     margin: 10px;
+}
+#img_mur{
+    float: left;
+}
+#img_falaise{
     float: right;
 }
-#img2{
-    width: 200px;
-    max-width: 700px;
-    border-radius: 30px;
-    margin: 10px;
-    float: left;
+#dentelles{
+    float: right;
 }
 strong{
     text-align: center;
@@ -182,7 +183,7 @@ strong{
 
 .article_actu{
     border-top: 2px solid black;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 #inscription_align{
     text-align: center;
@@ -354,10 +355,10 @@ p:hover .actu_calendrier{
     margin-top: 10px;
     position: absolute;
     background-color:#E8D0CC;
-    padding: 7px;
+    padding: 3px;
     font-family: 'HPSimplified_Lt';
     color: black;
-    font-size: 17px;
+    font-size: 15px;
     width: 300px; 
 }
 

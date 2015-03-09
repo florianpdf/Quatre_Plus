@@ -102,6 +102,7 @@ header{
     }
     .nav_index li{
         background-image: none;
+        display: inline-block;
     }
 }
 

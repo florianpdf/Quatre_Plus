@@ -256,7 +256,6 @@ strong{
         min-width: inherit;
         width: inherit;
         margin: auto 8px;
-        background-color: ;
     }
     #climb_dessin{
         display: none;
@@ -266,11 +265,9 @@ strong{
         margin: auto;
         width: auto;
         height: auto;
-        background-color: ;
     }
     #article_accueil{
         width: auto;
-        background-color: ;
         margin-top: -10px
     }  
 }

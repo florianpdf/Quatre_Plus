@@ -107,9 +107,9 @@ a:hover{
 }
 
 /*Section*/
-section{
-     font-weight: normal;
-     margin: 80px 8px 80px 8px;
+.section_all{
+    font-weight: normal;
+    margin: 80px 8px 80px 8px;
 }
 
 section h1{
@@ -126,7 +126,7 @@ section h2{
     font-size: 17px;
     font-weight: 900;
 }
-#horaire{
+#h2_horaire{
     margin-top: 25px;
     margin-bottom: 10px;
 }
@@ -138,18 +138,12 @@ section h3{
     font-weight: 300;
     text-align: center;
 }
-section p{
+.section_all p{
     font-family: 'HPSimplified_Lt';
     text-align: justify;
-    line-height: 18px;
     /*Propriété ci dessous prise en charge uniquement sur IE et FireFox*/
     text-align-last: center;
     -moz-text-align-last: center;
-}
-#photo_acceuil{
-    width: 400px;
-    float: left;
-    margin: 0 20px 20px 0;
 }
 #respons1{
     clear: both;
@@ -166,16 +160,23 @@ section p{
 #img_falaise, #dentelles{
     float: right;
 }
-#test, #test2{
-    width: 400px;
-    display: inline-block;
-    
+#climb_dessin{
+    width: 230px;
+    margin-top: 40px;
 }
-#test3{
-    display: block;
-    background-color: red;
-    width: 810px;
-    margin: auto;
+#img_left_accueil{
+    display: inline-block;
+    width: 300px;
+}
+#section_accueil{
+    display: inline-block;
+    font-family: 'HPSimplified_Lt';
+    width: 65%;
+    vertical-align: top;
+    margin-top: 60px;
+    padding: 5px;
+    font-size: 2vw;
+    line-height: 30px;
 }
 strong{
     text-align: center;
@@ -191,13 +192,11 @@ strong{
 .point_gris {
     text-align: center;
 }
-
 .point_gris img{
     margin: 20px 5px -40px 5px;
     width: 13px;
     display: inline-block;
 }
-
 .article_actu{
     border-top: 2px solid black;
     margin-top: 50px;
@@ -233,22 +232,25 @@ strong{
     .img_text{
         display: none;
     }
-    #photo_acceuil{
-        width: 80%;
+    #climb_dessin{
+        width: 230px;
+        margin-top: 40px;
+        display: none;
     }
-}
-@media(max-width: 970px){
-    #photo_acceuil{
-        float: none;
-        display: block;
-        margin: 0 auto 20px auto;
-    }
-    #table_horaire{
-        margin: auto;
+    #section_accueil{
+        display: inline-block;
+        font-family: 'HPSimplified_Lt';
+        width: 65%;
+        vertical-align: top;
+        margin-top: 60px;
+        margin-left: ;
+        padding: 5px;
+        font-size: 2vw;
+        line-height: 30px;
     }
 }
 @media(min-width: 1150px){
-    section{
+    .section_all{
         margin: 80px;
     }
 }
@@ -358,7 +360,7 @@ input[type="submit"], input[type="reset"]{
     text-align: left;
     font-family: 'HPSimplified_Lt';
     color: #7f4c41;
-    border-left: solid 3px #d6d5d5;
+    border-left: solid 3px #746866;
     font-size: 20px;
     padding-left: 5px;
 }
@@ -448,9 +450,14 @@ table p{
     }
 }
 
-/* Horraires*/
+/* Horaires*/
 #table_horaire tr, #table_horaire td{
     border: 1px solid black;
+}
+@media(max-width: 970px){
+    #table_horaire{
+        margin: auto;
+    }
 }
 
 /*Images Google*/
@@ -485,5 +492,3 @@ footer img{
         margin-top: 30px;
     }
 }
-/*nav*/
-

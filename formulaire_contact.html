@@ -7,45 +7,43 @@
         <link rel="stylesheet" href="style_4+.css" />
     </head>
     <body>
-        <section class="section_all">
-            <div id="formulaire">
-                <form method="post" action="index.html"><!--Le doc .php n'existe pas encore-->
-                    <fieldset>
-                        <legend>Informations personnelles</legend>
-                        <p><label for="nom" class="label_perso">Nom:</label><input type="text" name="nom" id="nom" required placeholder="Votre nom ici"></p>
-                        <p><label for="prenom" class="label_perso">Prénom:</label><input type="text" name="prenom" id="prenom" required placeholder="Voter prénom ici"></p>
-                        <p><label for="email" class="label_perso">E-mail:</label><input type="email" name="email" id="email" required placeholder="Votre email ici"></p>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Infos de grimpeur</legend>
-                        <p>Avez vous déjà pratiquer l'escalade ?<br/></p>
-                        <p class="dispo_choix"><input type="radio" name="climb" value="Oui" id="oui" required/><label for="oui">Oui</label></p>
-                        <p class="dispo_choix"><input type="radio" name="climb" value="Non" id="non" required/><label for="non">Non</label></p>
+        <div id="formulaire">
+            <form method="post" action="index.html"><!--Le doc .php n'existe pas encore-->
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                    <p><label for="nom" class="label_perso">Nom:</label><input type="text" name="nom" id="nom" required placeholder="Votre nom ici"></p>
+                    <p><label for="prenom" class="label_perso">Prénom:</label><input type="text" name="prenom" id="prenom" required placeholder="Voter prénom ici"></p>
+                    <p><label for="email" class="label_perso">E-mail:</label><input type="email" name="email" id="email" required placeholder="Votre email ici"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Infos de grimpeur</legend>
+                    <p>Avez vous déjà pratiquer l'escalade ?<br/></p>
+                    <p class="dispo_choix"><input type="radio" name="climb" value="Oui" id="oui" required/><label for="oui">Oui</label></p>
+                    <p class="dispo_choix"><input type="radio" name="climb" value="Non" id="non" required/><label for="non">Non</label></p>
 
-                        <p>Si oui, quel est votre structure préféré ? (Plusieurs réponses possible) <br/></p>
-                        <p class="dispo_choix"><input type="checkbox" name="bloc" value="Bloc" id="bloc" /> 
-                        <label for="bloc">Bloc</label></p>
-                        <p class="dispo_choix"><input type="checkbox" na="falaise" value="falaise" id="falaise" />
-                        <label for="falaise">Falaise</label></p>
-                        <p class="dispo_choix"><input type="checkbox" name="artif" value="Structure artificielle" id="artif" /> 
-                        <label for="artif">Structure artificielle</label></p>
+                    <p>Si oui, quel est votre structure préféré ? (Plusieurs réponses possible) <br/></p>
+                    <p class="dispo_choix"><input type="checkbox" name="bloc" value="Bloc" id="bloc" /> 
+                    <label for="bloc">Bloc</label></p>
+                    <p class="dispo_choix"><input type="checkbox" na="falaise" value="falaise" id="falaise" />
+                    <label for="falaise">Falaise</label></p>
+                    <p class="dispo_choix"><input type="checkbox" name="artif" value="Structure artificielle" id="artif" /> 
+                    <label for="artif">Structure artificielle</label></p>
 
-                        <p>Si oui, quel est votre niveau ?<br/></p>
-                        <p class="dispo_choix"><input type="radio" name="niveau" value="4a, 4b, 4c" id="n4" /><label for="n4">4a, 4b, 4c</label></p>
-                        <p class="dispo_choix"><input type="radio" name="niveau" value="5a, 5b, 5c" id="n5" /><label for="n5">5a, 5b, 5c</label></p>
-                        <p class="dispo_choix"><input type="radio" name="niveau" value="6a, 6b, 6c" id="n6" /><label for="n6">6a, 6b, 6c</label></p>
-                        <p class="dispo_choix"><input type="radio" name="niveau" value="7a, et plus" id="n7" /><label for="n7">7a, et plus</label></p>
-                    </fieldset>
-                    <fieldset>
-                        <legend>A vous la parole</legend>
-                        <p class="form_align"><label for="question" id="label_question">Nous vous écoutons, renseignements, conseils, c'est pas ici.</label><br/></p>
-                        <textarea name"question" id="question" placeholder="Ecrivez ici" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <p class="form_align"><input type="submit" value="Envoyer" /><input type="reset" value="Annuler"></p>
-                    </fieldset>                
-                </form>
-            </div>
-        </section>
+                    <p>Si oui, quel est votre niveau ?<br/></p>
+                    <p class="dispo_choix"><input type="radio" name="niveau" value="4a, 4b, 4c" id="n4" /><label for="n4">4a, 4b, 4c</label></p>
+                    <p class="dispo_choix"><input type="radio" name="niveau" value="5a, 5b, 5c" id="n5" /><label for="n5">5a, 5b, 5c</label></p>
+                    <p class="dispo_choix"><input type="radio" name="niveau" value="6a, 6b, 6c" id="n6" /><label for="n6">6a, 6b, 6c</label></p>
+                    <p class="dispo_choix"><input type="radio" name="niveau" value="7a, et plus" id="n7" /><label for="n7">7a, et plus</label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>A vous la parole</legend>
+                    <p class="form_align"><label for="question" id="label_question">Nous vous écoutons, renseignements, conseils, c'est pas ici.</label><br/></p>
+                    <textarea name"question" id="question" placeholder="Ecrivez ici" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <p class="form_align"><input type="submit" value="Envoyer" /><input type="reset" value="Annuler"></p>
+                   </fieldset>                
+            </form>
+        </div>
     </body>
 </html>

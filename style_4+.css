@@ -107,14 +107,12 @@ a:hover{
 
 /*Section*/
 .section_all{
-    font-weight: normal;
     margin: 20px 8px 80px 8px;
 }
 
 h1{
     text-align: center;
     font-family: 'HPSimplified_Rg';
-    font-weight: normal;
     font-size: 25px;
     margin-top: 30px;
 }
@@ -123,28 +121,18 @@ h2{
     margin-top: 30px;
     font-family: 'HPSimplified_Rg';
     font-size: 17px;
-    font-weight: 900;
 }
 #h2_horaire{
     margin-top: 25px;
     margin-bottom: 10px;
 }
-h3{
-    margin-bottom: -13px;
-    margin-top: 80px;
-    font-family: 'HPSimplified_Rg';
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
 h4{
-    font-weight: 900;
     text-align: center;
     font-size: 23px;
     margin-top: 60px;
 }
-#h4_reseau{
-    margin-bottom: -50px;
+#h4_reseau_sociaux{
+    margin-bottom: -6px;
 }
 .section_all p{
     font-family: 'HPSimplified_Lt';
@@ -153,9 +141,11 @@ h4{
     text-align-last: center;
     -moz-text-align-last: center;
 }
-
 #respons1{
     clear: both;
+}
+#quatre_plus{
+    color: #855145;
 }
 .img_text{
     width: 200px;
@@ -171,28 +161,36 @@ h4{
 }
 #section_accueil{
     min-width: 1000px;
-    margin: auto;
-    background-color: red;
+    width: 840px;
+    margin: 0 auto;
+    background-color: ;
 }
 #climb_dessin{
     width: 230px;
-    margin-top: ;
+    margin-left: 30px;
+    display: block;
+    border-radius: 0 50px 50px 0; 
 }
 #img_left_accueil{
     display: inline-block;
     width: 230px;
-    background-color: blue;
+    background-color: ;
 }
 #article_accueil{
-    display: inline-block;
     font-family: 'HPSimplified_Lt';
     width: 600px;
-    vertical-align: top;
-    margin-top: 60px;
     font-size: 23px;
+    text-align: justify;
     line-height: 30px;
-    background-color: yellow;
-
+    background-color: ;
+    margin: 36px auto 0 auto;
+}
+#text_right_accueil{
+    display: inline-block;
+    vertical-align: top;
+    width: 766px;
+    height: 515px;
+    background-color: ;
 }
 strong{
     text-align: center;
@@ -220,6 +218,7 @@ strong{
 .article_actu span{
     font-size: 18px;
     text-decoration: underline;
+    padding-bottom: 3px;
 }
 #inscription_align{
     text-align: center;
@@ -248,22 +247,36 @@ strong{
     .img_text{
         display: none;
     }
+    #article_accueil{
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+@media(max-width: 1000px){
+    #section_accueil{
+        display: inherit;
+        min-width: inherit;
+        width: inherit;
+        margin: auto 8px;
+        background-color: ;
+    }
     #climb_dessin{
-        width: 230px;
-        margin-top: 40px;
         display: none;
     }
-    #section_accueil{
-        display: inline-block;
-        font-family: 'HPSimplified_Lt';
-        width: 65%;
-        vertical-align: top;
-        margin-top: 60px;
-        margin-left: ;
-        padding: 5px;
-        font-size: 2vw;
-        line-height: 30px;
+     #text_right_accueil{
+        display: inherit;
+        margin: auto;
+        width: auto;
+        height: auto;
+        background-color: ;
     }
+    #article_accueil{
+        width: auto;
+        font-size: 23px;
+        line-height: 30px;
+        background-color: ;
+        margin-top: -10px
+    }  
 }
 @media(min-width: 1150px){
     .section_all{
@@ -326,15 +339,6 @@ input[type=radio], input[type=checkbox]{
 }
 .label_question{
     text-align: center;
-}
-textarea{
-    width: 97%;
-    height: 60px;
-    font-size: 13px;
-}
-textarea[placeholder]{
-    font-size: 16px;
-    padding: 5px;
 }
 textarea{
     width: 97%;

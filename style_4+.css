@@ -233,17 +233,20 @@ strong{
         line-height: 20px;
         font-size: 19px;
     }
+    section h1{
+        margin-top: 26px;
+    }
     #respons1{
         margin-top: 30px;
     }
     section{
-        margin-top: 30px;
+        margin-top: 70px;
     }
     .img_text{
         display: none;
     }
     #article_accueil{
-        font-size: 16px;
+        font-size: 19px;
         line-height: 20px;
     }
 }
@@ -267,8 +270,6 @@ strong{
     }
     #article_accueil{
         width: auto;
-        font-size: 23px;
-        line-height: 30px;
         background-color: ;
         margin-top: -10px
     }  

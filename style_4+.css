@@ -243,8 +243,8 @@ strong{
         display: none;
     }
     #article_accueil{
-        font-size: inherit;
-        line-height: inherit;
+        font-size: 19px;
+        line-height: 20px;
     }
 }
 @media(max-width: 1000px){

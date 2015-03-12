@@ -29,7 +29,7 @@
     width: 100%;
     max-width: 90%;
     margin: auto;
-    background-color: #E8D0CC;
+    background-color: #F4E8E6;
 }
 
 /*Header*/
@@ -59,16 +59,16 @@ header{
     background-size: 60px;
 }
 #index_img{
-    background-image: url(images/prise_1.jpg);
+    background-image: url(images/prise1.png);
 }
 #histoire_img{
-    background-image: url(images/prise_2.jpg);
+    background-image: url(images/prise2.png);
 }
 #actu_img{
-    background-image: url(images/prise_3.jpg);
+    background-image: url(images/prise3.png);
 }
 #contact_img{
-    background-image: url(images/prise_4.jpg);
+    background-image: url(images/prise4.png);
 }
 a{
     text-decoration: none;
@@ -130,6 +130,7 @@ h4{
     text-align: center;
     font-size: 23px;
     margin-top: 60px;
+    font-family: 'HPSimplified_Rg';
 }
 #h4_reseau_sociaux{
     margin-bottom: -6px;
@@ -167,30 +168,29 @@ h4{
     background-color: ;
 }
 #climb_dessin{
-    width: 230px;
-    margin-left: 30px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 80px;
     display: block;
     border-radius: 0 50px 50px 0; 
 }
 #img_left_accueil{
     display: inline-block;
-    width: 230px;
+    width: 21%;
     background-color: ;
 }
 #article_accueil{
     font-family: 'HPSimplified_Lt';
     width: 600px;
-    font-size: 23px;
+    font-size: 18px;
     text-align: justify;
-    line-height: 30px;
     background-color: ;
-    margin: 36px auto 0 auto;
+    margin: 65px auto 0 auto;
 }
 #text_right_accueil{
     display: inline-block;
     vertical-align: top;
-    width: 766px;
-    height: 515px;
+    width: 78%;
     background-color: ;
 }
 strong{
@@ -204,12 +204,20 @@ strong{
     border-top: 5px solid #746866;
     border-bottom: 5px solid #746866;
 }
-.point_gris {
+.point{
     text-align: center;
 }
-.point_gris img{
+#point_index{
+    margin-bottom: 80px;
+}
+.point_gris{
     margin: 20px 5px -40px 5px;
     width: 13px;
+    display: inline-block;
+}
+.point_rouge{
+    margin: 20px 5px -40px 5px;
+    width: 28px;
     display: inline-block;
 }
 .article_actu{
@@ -217,9 +225,11 @@ strong{
     margin-top: 50px;
 }
 .article_actu span{
-    font-size: 18px;
     text-decoration: underline;
     padding-bottom: 3px;
+}
+.article_actu li{
+    font-family: 'HPSimplified_Lt';
 }
 #inscription_align{
     text-align: center;
@@ -302,12 +312,11 @@ fieldset{
     padding: 10px;
 }
 fieldset legend{
-    font-family: 'HPSimplified_Bdlt';
     font-size: 20px;
-    background-color: ;
+    font-family: 'HPSimplified_Rg';
     border-radius: 6;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .form_align{
     text-align: center;
@@ -465,6 +474,9 @@ table p{
 /* Horaires*/
 #table_horaire tr, #table_horaire td{
     border: 1px solid black;
+}
+#table_horaire th, #table_horaire td{
+    font-family: 'HPSimplified_Lt';
 }
 @media(max-width: 970px){
     #table_horaire{
